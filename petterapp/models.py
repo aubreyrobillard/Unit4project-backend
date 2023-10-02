@@ -1,7 +1,5 @@
 from django.db import models
 
-from django.db import models
-
 # Create your models here.
 class Petter(models.Model):
     photo=models.CharField(max_length=300)
