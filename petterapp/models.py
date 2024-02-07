@@ -1,8 +1,15 @@
 from django.db import models
 
 # Create your models here.
-class Petter(models.Model):
-    photo=models.CharField(max_length=300)
+
+class Food(models.Model):
+    food_name=models.CharField(max_length=300)
+    food_brand=models.CharField(max_length=300)
+    food_frequency=moels.
+
+
+class Pet(models.Model):
+    photo=models.ImageField(upload_to='photos/')
     name=models.CharField(max_length=200)
     birthday=models.CharField(max_length=200)
     sex=models.CharField(max_length=200)
